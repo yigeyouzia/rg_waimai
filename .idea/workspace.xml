@@ -5,409 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7e3f6a9-e32b-442f-8e05-a4d48fd02f9e" name="变更" comment="&quot;all&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e075d8-55df-490b-aaf7-05611b97fc6f.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e075d8-55df-490b-aaf7-05611b97fc6f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e075d8-55df-490b-aaf7-05611b97fc6f/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e075d8-55df-490b-aaf7-05611b97fc6f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e075d8-55df-490b-aaf7-05611b97fc6f/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/ReggieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/JacksonObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/AddressBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/CommonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/DishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/OrderDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/SetmealController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/dto/DishDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/dto/OrdersDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/dto/SetmealDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/DishFlavor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/Setmeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/SetmealDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/AddressBookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/DishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/SetmealMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/ShoppingCartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/AddressBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/DishFlavorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/SetmealDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/SetmealService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/utils/SMSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/headPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/locations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/orders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/subtract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/women.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/vant.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/add-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address-edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/no-wify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/pay-success.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/vant.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/combo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/food.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404-cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_back@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_clean@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_upload@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/renshu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_brand01@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_denglu_bj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/demo/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/axios/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/ReggieApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/BaseContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/JacksonObjectMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/MyMetaObjectHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/common/R.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/config/MybatisPlusConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/config/WebMvcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/AddressBookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/CommonController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/DishController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/OrderDetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/SetmealController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/ShoppingCartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/dto/DishDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/dto/OrdersDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/dto/SetmealDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/AddressBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/Dish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/DishFlavor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/OrderDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/Setmeal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/SetmealDish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/ShoppingCart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/filter/LoginCheckFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/AddressBookMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/DishFlavorMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/DishMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/OrderDetailMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/OrdersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/SetmealDishMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/SetmealMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/ShoppingCartMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/AddressBookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/DishFlavorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/DishService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/OrderDetailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/OrdersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/SetmealDishService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/SetmealService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/ShoppingCartService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/AddressBookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/SetmealServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/utils/SMSUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cyt/reggie/utils/ValidateCodeUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/api/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart_active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_false.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_true.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/favico.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/headPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/locations.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/noImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/orders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/subtract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/images/women.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/js/vant.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/add-order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/no-wify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/pay-success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/page/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/add-order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address-edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/no-wify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/pay-success.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/vant.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/reggie_take_out-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/reggie_take_out-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,7 +115,7 @@
       <workItem from="1683944886870" duration="12443000" />
       <workItem from="1684032390865" duration="13621000" />
       <workItem from="1684160475115" duration="8669000" />
-      <workItem from="1684216094852" duration="2566000" />
+      <workItem from="1684216094852" duration="3272000" />
     </task>
     <servers />
   </component>
@@ -532,6 +130,36 @@
             <State />
           </value>
         </entry>
+        <entry key="ecd0a95a-7898-4cf5-969e-c9049bcfe369">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/workspace/java/project/reggie_take_out/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ecd0a95a-7898-4cf5-969e-c9049bcfe369" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
