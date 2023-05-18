@@ -10,7 +10,7 @@ spring:
       username: root
       password: cyt
   redis:
-    host: loacalhost
+    host: localhost
     port: 6379
     database: 0 #操作第0个数据库
     jedis:
