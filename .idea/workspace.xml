@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e3f6a9-e32b-442f-8e05-a4d48fd02f9e" name="变更" comment="&quot;redis环境配置&quot;">
+    <list default="true" id="c7e3f6a9-e32b-442f-8e05-a4d48fd02f9e" name="变更" comment="&quot;使用redis缓存短信验证码 菜品数据&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/SetmealController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyt/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +30,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -57,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../java/springboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -144,6 +143,7 @@
       <workItem from="1684216094852" duration="4601000" />
       <workItem from="1684303671701" duration="4054000" />
       <workItem from="1684377887171" duration="362000" />
+      <workItem from="1684510909637" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;all&quot;">
       <created>1684223905945</created>
@@ -152,14 +152,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684223905945</updated>
     </task>
-    <task id="LOCAL-00002" summary="&quot;redis环境配置&quot;">
-      <created>1684380101658</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684380101658</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,8 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;all&quot;" />
-    <MESSAGE value="&quot;redis环境配置&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;redis环境配置&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;all&quot;" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
