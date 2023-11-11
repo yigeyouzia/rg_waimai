@@ -44,6 +44,11 @@ public class DishController {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    @GetMapping("/hi")
+    public void test() {
+        System.out.println(11);
+    }
+
     /**
      * 新增菜品
      *
@@ -144,6 +149,7 @@ public class DishController {
 
     /**
      * 根据条件查询对应的菜品数据
+     *
      * @param dish
      * @return
      */

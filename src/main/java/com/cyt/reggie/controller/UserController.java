@@ -38,7 +38,6 @@ public class UserController {
 
     /**
      * 发送手机短信验证码
-     *
      * @param user
      * @return
      */
@@ -63,7 +62,6 @@ public class UserController {
 
     /**
      * 发送手机短信验证码
-     *
      * @param user
      * @return
      */
